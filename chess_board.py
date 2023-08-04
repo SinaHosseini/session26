@@ -10,5 +10,5 @@ for row in range(8):
               * size] = ((row+cell) % 2)*255
 
 cv2.imshow("chess_board", board)
-cv2.waitKey()
 cv2.imwrite("chess_board.jpg", board)
+cv2.waitKey()
